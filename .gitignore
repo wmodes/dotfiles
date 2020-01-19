@@ -1,6 +1,12 @@
 # Ignore everything by default.
 *
 
+# specific home dir stuff (though not really dotfiles)
+!bin
+!bin/*
+!scripts
+!scripts/*
+
 # Bash stuff (profile just sources bashrc, since it's the only thing sourced
 # when a shell is a login shell).
 !.bash*
